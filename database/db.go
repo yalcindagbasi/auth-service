@@ -1,6 +1,7 @@
 package database
 
 import (
+	"auth-service/models"
 	"fmt"
 	"log"
 	"os"
@@ -29,6 +30,8 @@ func ConnectDatabase() {
 	if err != nil {
 		log.Fatal("Database connection failed")
 	}
+
+	db.AutoMigrate(&models.User{})
 
 	DB = db
 	fmt.Println("Connected to the database!")
