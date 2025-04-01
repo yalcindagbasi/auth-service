@@ -1,0 +1,38 @@
+# Go ile ilgili
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Go workspace dosyaları
+go.work
+
+# Bağımlılık dizinleri
+/vendor/
+
+# Yerel geliştirme dosyaları
+.env
+.env.local
+*.log
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Derleme çıktıları
+/bin/
+/dist/
+
+# Geçici dosyalar
+/tmp/
+*.tmp
