@@ -1,4 +1,4 @@
-module github.com/yalcindagbasi/auth-service
+module auth-service
 
 go 1.23.5
 
